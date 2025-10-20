@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 70" width="260" height="70">
+  <defs>
+    <style>
+      .logo-bg { fill: #165A8C; }
+      .logo-stripe { fill: #FFFFFF; }
+      .logo-text-main { fill: #2A2A2A; font-family: 'Inter', 'Arial', sans-serif; font-size: 20px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; }
+      .logo-text-sub { fill: #165A8C; font-family: 'Inter', 'Arial', sans-serif; font-size: 13px; font-weight: 500; }
+    </style>
+  </defs>
+  
+  <!-- Background square -->
+  <rect class="logo-bg" x="0" y="0" width="65" height="65"/>
+  
+  <!-- Main diagonal white stripe (top-left to bottom-right) -->
+  <polygon class="logo-stripe" points="0,0 65,0 65,22 18,22 0,40"/>
+  
+  <!-- Secondary diagonal element (horizontal bar in bottom-right) -->
+  <rect class="logo-stripe" x="38" y="38" width="27" height="12"/>
+  
+  <!-- Text -->
+  <text class="logo-text-main" x="75" y="38">ACADEMUS</text>
+  <text class="logo-text-sub" x="75" y="54">Publishing</text>
+</svg>
+
